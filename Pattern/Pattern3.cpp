@@ -20,7 +20,7 @@ int main()
         {
             cout << a;
             int b = a + 64;
-            char c = (char)b;
+            char c = (char)b; //type casting
             a++;
         }
         cout << endl;
